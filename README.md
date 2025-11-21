@@ -158,12 +158,5 @@ This project is a course assignment project for learning and research purposes o
 
 ## Contributors
 
-Team Members: [Add team member names here]
+Team Members: [YANGHANG| NGUYEN THI QUYNH PHUONG | SABID SADIKUL HABIB]
 
-## Contact
-
-For questions or suggestions, please contact the project maintainer.
-
----
-
-**Note**: This project is a team assignment for the "Programming for Data Analysis" course.
