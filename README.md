@@ -32,11 +32,6 @@ Install the required Python libraries:
 pip install requests openai python-dotenv
 ```
 
-Or use requirements.txt (if available):
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Configuration
 
