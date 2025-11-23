@@ -28,4 +28,3 @@ if test1 == 'yes':
        
 else:
     print("Thank you for using")
-
