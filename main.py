@@ -5,7 +5,7 @@ from AI_info import ai_info
 city = input('Please input A city or a place: ')
 data = get_info(city)
 
-print(f"\nCurrent time:{data[3]} {city.upper()} Information:\nWeather condition: {data[1]}\nTemperature (Actual): {data[2]}\n")
+print(f"\nCurrent time:{data[4]} {city.upper()} Information:\nWeather condition: {data[2]}\nTemperature (Actual): {data[3]}\n")
 
 test1 = input(f"Do you need today's {city.upper()} weather AI suggestion? (yes/no) ")
 if test1 == 'yes':
@@ -14,8 +14,8 @@ if test1 == 'yes':
     
     # AI prompt words
     weather_context = (
-            f"City: {city}, Weather: {data[1]}, Temperature: {data[2]}, "
-            f"Local time: {data[3]}"
+            f"City: {city}, Weather: {data[2]}, Temperature: {data[3]}, "
+            f"Local time: {data[4]}"
         )
         
     print('\nYou can ask any question about the weather in this place....\ninput "exit" to exit')
